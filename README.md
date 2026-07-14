@@ -288,7 +288,7 @@ curl -X POST http://localhost:3200/api/travel/chat \
 响应将通过 SSE 流式返回，每段文本为 data: {...} 格式。
 
 项目结构
-text
+```
 Travel-AI-Agent-Backend/
 ├── src/main/java/com/lixinyang/travelassistant/
 │   ├── TravelassistantApplication.java         # 启动类
@@ -312,6 +312,7 @@ Travel-AI-Agent-Backend/
 │   └── static/                                 # 静态资源
 ├── pom.xml                                     # Maven 依赖管理
 └── README.md
+```
 未来改进
 用户账号与持久化：引入 MySQL + MyBatis，实现注册登录与行程历史存储
 
